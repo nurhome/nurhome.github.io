@@ -1,0 +1,103 @@
+
+    
+        <h1>Nurzaman Ahmed &mdash; Ph.D</h1>
+
+        <!-- Row for Photo and Personal Slideshow -->
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Professional photo -->
+                <img height="400" width="400" alt="photo" src="photos/pic.png">
+            </div>
+            <div class="col-md-6">
+                <!-- Latest News Heading -->
+                <h2>Latest News</h2>
+
+                <!-- Research slideshow -->
+                <div id="researchSlideshow" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-caption">
+                                <h3>Slide 1 Caption</h3>
+                                <p>Some optional text for Slide 1.</p>
+                            </div>
+                            <img src="photos/slide/outdan.jpg" class="d-block w-100" alt="Slide 1">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <h3 style="color: black;">Slide 2 Caption</h3>
+                                <p style="color: black;">Some optional text for Slide 2.</p>
+                            </div>
+                            <img src="photos/slide/outslu.jpg" class="d-block w-100" alt="Slide 2">
+                        </div>
+                        <!-- Additional Carousel Item with White Background and Text Caption -->
+                        <div class="carousel-item blank-image">
+                            <div class="carousel-caption">
+                                <h3 style="color: white;">Blank Image Caption</h3>
+                                <p style="color: white;">This slide has a white background and visible text.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#researchSlideshow"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#researchSlideshow"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <!-- Header row for Professional and Personal sections -->
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="text-white bg-success" id="professional">Professional</h3>
+                <!-- List for Professional section -->
+                <b>About me:</b>
+                <ul>
+                    <li> My <a href="vita.pdf">CV</a> (pdf) and <a href="bio.html">short bio</a>; see also <a
+                            href="#">LinkedIn</a></li>
+                    <li> My <a href="#">ORCID</a> and research profile on <a href="#">Zotero</a>, <a href="#">SCOPUS</a>,
+                        and <a href="#">Google Scholar</a></li>
+                    <li> My <a href="#">research</a>, my <a href="research/papers.html">papers</a>, my <a
+                            href="people.html">group</a></li>
+                    <li> My <a href="#">teaching</a></li>
+                </ul>
+                <b>Current positions:</b>
+                <ul>
+                    <li> <a href="#">Engineering Research Scientist</a>, Donald Danforth Plant Science Center</li>
+                </ul>
+                <b>Education:</b>
+                <ul>
+                    <li> Ph.D. <a href="#">North Eastern Hill University</a>, 2020.</li>
+                </ul>
+            </div>
+
+            <div class="col-md-6">
+                <h3 class="bg-secondary text-white" id="personal">Personal</h3>
+                <!-- List for Personal section -->
+                <b>Photography and travel:</b>
+                <ul>
+                    <li> My <a href="#"><b>Blogs</b></a></li>
+                </ul>
+                <b>Professional societies:</b>
+                <table>
+                    <tr>
+                        <td align=center width=150><a href="#">ACM Member</a></td>
+                        <td align=center width=150><a href="#">IEEE member</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <hr>
+        <h3><a name="contact" id="contact">Contact information</a></h3>
+        <p>Nurzaman Ahmed<br>
+            Donald Danforth Plant Science Center<br>
+            975 N Warson Rd <br>
+            Olivette, MO 63132 <br>
+            nur.zaman@live.com
+        </p>
