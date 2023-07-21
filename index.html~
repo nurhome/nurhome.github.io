@@ -1,15 +1,27 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <HTML>
 <HEAD>
-    <TITLE>Nurzaman Ahmed</TITLE>
+    <TITLE>Home-Nurzaman Ahmed</TITLE>
     <!-- Add Bootstrap CDN link -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    
+    <!-- Metadata for better reachability -->
+    <meta name="description" content="Innovative solutions for precision agriculture through the use of IoT and recent technological advancements. My work revolves around improving farmers' productivity and sustainability, ensuring efficient resource management and crop monitoring. My research interest: Internet of things, Software-defined networking, and  Wireless local area networking.">
+    <meta name="keywords" content="research, precision agriculture, IoT, UAV, technology, farmers, sustainability, resource management, crop monitoring, teaching, ">
+    <meta name="author" content="sdn" >
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
 </HEAD>
 <BODY BGCOLOR="#FFFFFF" TEXT="#000000">
     <!-- Navigation menu -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Home</a>
+            <a class="navbar-brand" href="index.html">Home</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -17,13 +29,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#researchSlideshow">Latest News</a>
+                        <a class="nav-link" href="news.html">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#professional">Professional</a>
+                        <a class="nav-link" href="papers.html">Publications</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#personal">Personal</a>
+                        <a class="nav-link" href="blog.html">Personal Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -36,11 +48,11 @@
     <div class="container">
 
     
-        <h1>Nurzaman Ahmed &mdash; Ph.D.</h1>
+        <h1>Nurzaman Ahmed, Ph.D.</h1>
 
         <!-- Row for Photo and Personal Slideshow -->
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-md-6">
                 <!-- Professional photo -->
                 <img height="300" width="300" alt="photo" src="photos/pic.png">
                 <br>    <br>
@@ -48,7 +60,7 @@
 
 During my leisure time, I indulge in activities that bring me joy and relaxation --teaching, cooking, fishing ... I have a passion for traveling and exploring the beauty of nature</p>
             </div>
-            <div class="col-lg-6">
+            <div class="col-md-6">
                 <!-- Latest News Heading -->
                 <h2>Latest News</h2>
 
@@ -57,26 +69,34 @@ During my leisure time, I indulge in activities that bring me joy and relaxation
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="carousel-caption">
-                                <h3>Slide 1 Caption</h3>
-                                <p>Some optional text for Slide 1.</p>
+                                <h3 style="color: white;">Outreach program at Danforth</h3>
+                                <p style="color: white;">A real time gaming app for teaching smart agriculture</p>
                             </div>
                             <img src="photos/slide/outdan.jpg" class="d-block w-100" alt="Slide 1">
                         </div>
+                    
+                        <!-- Additional Carousel Item with White Background and Text Caption -->
+                        
+                        
                         <div class="carousel-item">
                             <div class="carousel-caption">
-                                <h3 style="color: black;">Slide 2 Caption</h3>
-                                <p style="color: black;">Some optional text for Slide 2.</p>
+                                <h3 style="color: white;">Outreach program at Saint Louis University</h3>
+                                <p style="color: white;">iScore Camp.</p>
                             </div>
-                            <img src="photos/slide/outslu.jpg" class="d-block w-100" alt="Slide 2">
+                            <img src="photos/slide/slu2.jpg" class="d-block w-100" alt="Slide 2">
                         </div>
-                        <!-- Additional Carousel Item with White Background and Text Caption -->
-                        <div class="carousel-item blank-image">
+                        <!--
+                           <div class="carousel-item">
                             <div class="carousel-caption">
-                                <h3 style="color: white;">Blank Image Caption</h3>
-                                <p style="color: white;">This slide has a white background and visible text.</p>
+                                <h3 style="color: red;">Slide 2 Caption</h3>
+                                <p style="color: red;">Some optional text for Slide 2.</p>
                             </div>
+                            <img src="photos/slide/blank.jpeg" class="d-block w-100" alt="Slide 2">
                         </div>
+                        -->
                     </div>
+                    
+                    
                     <button class="carousel-control-prev" type="button" data-bs-target="#researchSlideshow"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -94,59 +114,64 @@ During my leisure time, I indulge in activities that bring me joy and relaxation
         <br>
         <!-- Header row for Professional and Personal sections -->
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-md-6">
                 <h3 class="text-white bg-success" id="professional">Professional</h3>
                 <!-- List for Professional section -->
                 <b>About me:</b>
                 <ul>
-                    <li> My <a href="docs/cv.pdf">CV</a> (pdf); <a href="short_bio.html">short bio</a>; and  <a
+                   <li> My <a href="docs/cv.pdf">CV</a> (pdf); <a href="short_bio.html">short bio</a>; and  <a
                             href="https://www.linkedin.com/in/nurzaman-ahmed-75874892">LinkedIn</a></li>
                     <li> My research profile <a href="https://scholar.google.com/citations?user=wUFC3VMAAAAJ&hl=en">Google Scholar</a>,  <a href="https://orcid.org/0000-0003-2597-6483">ORCID</a>, and <a href="https://www.researchgate.net/profile/Nurzaman-Ahmed">ResearchGate</a>
-                    <li> My <a href="#">research</a>, my <a href="papers.html">papers</a>
-                    <li> My <a href="#">teaching</a></li>
+                    <li> My <a href="research.html">research</a>, my <a href="papers.html">papers</a>, and my <a href="reviews.html"> reviews </a>
+                    <li> My <a href="#">teaching</a>, my  <a href="lectures.html">lectures & handsons</a></li>
+                    <li> My <a href="collaborator.html" > collaborators</a>
                 </ul>
                 <b>Current positions:</b>
                 <ul>
-                    <li> December 2022 &ndash;  till date, <b>Engineering Research Scientist </b> at <a href="https://www.danforthcenter.org/">Donald Danforth Plant Science Center </a> </li>
+                    <li> December 2022 &ndash;  till date, <b>Engineering Research Scientist </b> at <a href="https://www.danforthcenter.org/">Donald Danforth Plant Science Center </a>, working at <a href="https://www.shakoorlab.com">ShakoorLab</a></li>
                 </ul>
                 <b>Previous positions:</b>
     <ul>
         <li>
             <dt>Postdoctoral Scholar</dt>
-            <dd>January 2022 &ndash; December 2022; Dartmouth College, Department of Computer Science; worked at <a href="">Splice</a></dd>
+            <dd>January 2022 &ndash; December 2022; <a href="https://home.dartmouth.edu/">Dartmouth College </a>Department of Computer Science; worked at <a href="https://splice-project.org">Splice</a></dd>
         </li>
         <li>
             <dt>Postdoctoral Fellow</dt>
-            <dd>September 2021 &ndash; December 2021; Indian Institute of Science, Department of Electrical Communication Engineering; worked at <a href="" >CNI </a></dd>
+            <dd>September 2021 &ndash; December 2021; <a href="https://iisc.ac.in/">Indian Institute of Science</a>, Department of Electrical Communication Engineering; worked at <a href="https://cni.iisc.ac.in" >CNI </a></dd>
         </li>
         <li>
             <dt>Research Associate</dt>
-            <dd>August 2019 &ndash; August 2021; Indian Institute of Technology, Kharagpur, Department of Computer Science & Engineering; worked at  <a href="" >SWAN</a></dd>
+            <dd>August 2019 &ndash; August 2021; <a href="https://iitkgp.ac.in/">Indian Institute of Technology</a>, Kharagpur, Department of Computer Science & Engineering; worked at  <a href="https://cse.iitkgp.ac.in/~smisra/swan/">SWAN</a></dd>
         </li>
         <li>
             <dt>Project Scientist</dt>
-            <dd>November 2015 &ndash; August 2019; North-Eastern Hill University, Shillong, Department of Information Technology; worked at <a href="" >IoTLab</a></dd>
+            <dd>November 2015 &ndash; August 2019;  <a href="https://nehu.ac.in/">North-Eastern Hill University</a>, Shillong, Department of Information Technology; worked at <a href="" >IoTLab</a></dd>
         </li>
         <li>
             <dt>Junior Research Fellow</dt>
-            <dd>August 2013 &ndash; January 2015; North-Eastern Hill University, Shillong, Department of Information Technology; worked at <a href="" >RuralWiFiLab</a></dd>
+            <dd>August 2013 &ndash; January 2015; <a href="https://nehu.ac.in/">North-Eastern Hill University</a>, Shillong, Department of Information Technology; worked at <a href="" >RuralWiFiLab</a></dd>
         </li>
     </ul>
                 <b>Education:</b>
                 <ul>
-                     <li> PostDoc. <a href="#">IIT Kharagpur, IISc Bangalore, Dartmouth College</a>, 2022.</li>
+                     <li>PostDoc. <a href="#">IIT Kharagpur, IISc Bangalore, Dartmouth College</a>, 2022.</li>
                     <li> Ph.D. <a href="#">North Eastern Hill University</a>, 2020.</li>
-                    <li> Masters <a href="#">North Eastern Hill University</a>, 2016.</li>
-                    <li> Bachelor <a href="#">North Eastern Hill University</a>, 2013.</li>
+                    <li> Masters - Information Technology <a href="#">North Eastern Hill University</a>, 2016.</li>
+                    <li> Bachelor - Information Technology<a href="#">North Eastern Hill University</a>, 2013.</li>
                 </ul>
             </div>
+            
+          
 
-            <div class="col-lg-6">
+            <div class="col-md-6">
                 <h3 class="bg-secondary text-white" id="personal">Personal</h3>
                 <!-- List for Personal section -->
-                <b>Photography and travel:</b>
+                <b>My palce:</b>
+               <p>I'm from Assam, India, a state known for its exquisite tea and as the home of the one-horned rhinoceros, found exclusively in Assam's Kaziranga National Park. Assam is celebrated for its rich cultural heritage, diverse landscapes, and significant contributions to various sectors, including tea production, wildlife conservation, and historical significance. My district- Goalpara, is closely linked to our unique culture, languages, and traditions, making Assam a prominent and well-recognized region in the global context. Click the <a href="https://en.wikipedia.org/wiki/Assam">Read More</a> <p>
+                 <b>My blogs:</b>
                 <ul>
-                    <li> My <a href="#"><b>Blogs</b></a></li>
+                    <li> Coming soon..</li>
                 </ul>
              
             </div>
@@ -157,7 +182,7 @@ During my leisure time, I indulge in activities that bring me joy and relaxation
             Donald Danforth Plant Science Center<br>
             975 N Warson Rd <br>
             Olivette, MO 63132 <br>
-            nur.zaman@live.com
+            nahmed@danforthcenter.org
         </p>
         
     </div>

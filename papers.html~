@@ -38,10 +38,16 @@
  <h3 id="journals">Journals</h3>
 
 <ul>
-    <li><span class="label label-success">[J23]</span> M. Alam <b>N. Ahmed</b>, M. Matam, M. Mukherjee, F. Barbhuiya,  <a target="_blank" href="#">
+    <li><span class="label label-success">[J24]</span> M. Alam <b>N. Ahmed</b>, M. Matam, M. Mukherjee, F. Barbhuiya,  <a target="_blank" href="#">
   						     "SDN-based Re-configurable Edge Network Architecture for Industrial Internet of Things" </a>, IEEE Internet of Things Journal, 2023 (<b>IF: 10.5</b>) <span class="label label-default"></span> </li>
-    <li><span class="label label-success">[J22]</span> A. Mandal <b>N. Ahmed</b>, M.I. Hussain,  <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S2590005623000103">
+    <li><span class="label label-success">[J23]</span> A. Mandal <b>N. Ahmed</b>, M.I. Hussain,  <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S2590005623000103">
   						     "IoT-MAC: A Channel Access Mechanism for IoT Smart Environment" </a>, Array, 2023 (<b></b>) <span class="label label-default"></span> </li>
+  
+
+  <li><span class="label label-success">[J22]</span> S. Misra, S. Pal, <b>N. Ahmed</b>,  A. Mukherjee,  <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/10058993">
+  						     "SDN-Controlled Resource-Tailored Analytics for Healthcare IoT System" </a>, IEEE Systems Journal, 2023 (<b>IF: 4.4</b>) <span class="label label-default"></span> </li>
+    
+  
   <li><span class="label label-success">[J21]</span> <b>N. Ahmed</b>, M.I. Hussain,  <a target="_blank" href="https://link.springer.com/article/10.1007/s11276-022-03206-3">
   						     "A QoS-aware Scheduling with Node Grouping for IEEE 802.11ah" </a>, Wireless Nerworks, 2023 (<b>IF: 2.7</b>) <span class="label label-default"></span> </li>
   
